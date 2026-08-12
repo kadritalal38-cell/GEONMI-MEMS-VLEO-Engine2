@@ -1,4 +1,9 @@
 # GEONMI-MEMS Engine
+<p align="center">
+  <img src="dashboard.jpg" alt="GEONMI-MEMS Core Dashboard" width="100%">
+</p>
+
+# GEONMI-MEMS Engine
 
 [![Project Status: Proprietary Architecture](https://img.shields.io/badge/Status-Proprietary%20IP-red.svg)]()
 [![Core Language: C++17](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)]()
