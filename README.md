@@ -1,7 +1,5 @@
 # GEONMI-MEMS Engine
-<p align="center">
-  <img src="dashboard.jpg" alt="GEONMI-MEMS Core Dashboard" width="100%">
-</p>
+<img width="1408" height="711" alt="Image" src="https://github.com/user-attachments/assets/8ed350ab-e52d-4182-8a7d-e329684e0be6" />
 
 # GEONMI-MEMS Engine
 
