@@ -1,7 +1,7 @@
 # GEONMI-MEMS Engine
 <img width="1408" height="711" alt="Image" src="https://github.com/user-attachments/assets/8ed350ab-e52d-4182-8a7d-e329684e0be6" />
 
-# GEONMI-MEMS Engine
+
 <img width="810" height="1440" alt="Image" src="https://github.com/user-attachments/assets/c4dc42f4-d5d5-4f77-b03f-1e8994b1b7e5" />
 [![Project Status: Proprietary Architecture](https://img.shields.io/badge/Status-Proprietary%20IP-red.svg)]()
 [![Core Language: C++17](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)]()
