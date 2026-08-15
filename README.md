@@ -30,9 +30,15 @@ By integrating atmospheric drag compensation, closed-loop micro-propulsion thrus
 - **High-Performance C++17 Core:** Native implementation leveraging matrix vectorization to meet deterministic real-time flight software execution standards.
 - **Multi-Node Fleet Scalability:** Native support for complex, multi-plane, and multi-satellite VLEO constellation architectures.
 - **Uncertainty Propagation Control:** Bounded state variance metrics during communication blackouts and orbital blind spots.
-## Advanced Structural-Functional Integration
+
+## ⚡ Advanced Structural-Functional Integration [![SWaP-C Optimization](https://img.shields.io/badge/Focus-SWaP--C%20Optimization-orange.svg)]()
 > **Redefining VLEO Architecture through Multi-Functional Structural Design**
 
+The structural framework of the GEONMI-MEMS architecture transcends traditional mechanical containment, serving as an active subsystem that significantly optimizes mission economics and operational longevity:
+- **Mass Optimization & Launch Cost Reduction:** Advanced structural engineering minimizes overall dry mass, substantially lowering per-kilogram launch expenditures and maximizing payload allocation space.
+- **Absolute Propellant Passivation:** Engineered surface protection prevents chemical degradation and reactivity with advanced iodine propellants, ensuring long-term structural integrity and zero-corrosion operations.
+- **Triboelectric & Piezoelectric Energy Harvesting:** Converts the continuous aerodynamic pressure and friction of the VLEO environment into viable onboard electrical energy, boosting the satellite's cumulative power budget.
+- **Total Cost of Ownership (TCO) Reduction:** Lowers dependency on supplementary power generation hardware while enhancing overall system resilience, delivering a highly cost-effective paradigm for large-scale constellations.
 The structural framework of the GEONMI-MEMS architecture transcends traditional mechanical containment, serving as an active subsystem that significantly optimizes mission economics and operational longevity:
 - **Mass Optimization & Launch Cost Reduction:** Advanced structural engineering minimizes overall dry mass, substantially lowering per-kilogram launch expenditures and maximizing payload allocation space.
 - **Absolute Propellant Passivation:** Engineered surface protection prevents chemical degradation and reactivity with advanced iodine propellants, ensuring long-term structural integrity and zero-corrosion operations.
