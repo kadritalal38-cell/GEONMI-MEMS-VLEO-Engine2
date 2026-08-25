@@ -72,4 +72,4 @@ TERMS & RESTRICTIONS:
 For technical reviews, authorization requests, or collaborative research opportunities, please contact:
 
 **Mohammad Talal Kadri**  
-📧 Email: **kadritalal38@gmail.com**
+📧 Email: **kadritalal84@gmail.com**
