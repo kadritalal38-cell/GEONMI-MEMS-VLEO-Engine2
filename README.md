@@ -6,6 +6,8 @@
 [![Project Status: Proprietary Architecture](https://img.shields.io/badge/Status-Proprietary%20IP-red.svg)]()
 [![Core Language: C++17](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)]()
 [![Domain: VLEO Spacecraft Dynamics](https://img.shields.io/badge/Domain-Aerospace%20%26%20GNC-green.svg)]()
+## 🌐 Civil Compliance & Eco-Friendly Design Notice
+The GEONMI-MEMS engine is designed, developed, and maintained strictly as a green, eco-friendly, and civil-use technology optimized for climate intelligence, ozone tracking, and space debris monitoring. This framework does not incorporate military-grade specifications, nor is it engineered for defense-classified applications. By prioritizing sustainable orbit life management and eco-friendly mission profiles, intellectual property transfers and technology licensing remain fully aligned with global civil space compliance and environmental sustainability standards.
 
 > **A Closed-Loop Autonomous Dynamics & Micro-Propulsion Engine for Next-Generation VLEO Constellations.**
 
