@@ -1,11 +1,10 @@
 # GEONMI-MEMS Engine
-<img width="1408" height="711" alt="Image" src="https://github.com/user-attachments/assets/8ed350ab-e52d-4182-8a7d-e329684e0be6" />
-
-
-<img width="810" height="1440" alt="Image" src="https://github.com/user-attachments/assets/c4dc42f4-d5d5-4f77-b03f-1e8994b1b7e5" />
 [![Project Status: Proprietary Architecture](https://img.shields.io/badge/Status-Proprietary%20IP-red.svg)]()
 [![Core Language: C++17](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)]()
 [![Domain: VLEO Spacecraft Dynamics](https://img.shields.io/badge/Domain-Aerospace%20%26%20GNC-green.svg)]()
+[![Author: Mohamed Talal Kadri](https://img.shields.io/badge/Author-Mohamed%20Talal%20Kadri-orange.svg)]()
+[![Contact: Email](https://img.shields.io/badge/Contact-kadritalal84%40gmail.com-lightgrey.svg)](mailto:kadritalal84@gmail.com)
+
 ## 🌐 Civil Compliance & Eco-Friendly Design Notice
 The GEONMI-MEMS engine is designed, developed, and maintained strictly as a green, eco-friendly, and civil-use technology optimized for climate intelligence, ozone tracking, and space debris monitoring. This framework does not incorporate military-grade specifications, nor is it engineered for defense-classified applications. By prioritizing sustainable orbit life management and eco-friendly mission profiles, intellectual property transfers and technology licensing remain fully aligned with global civil space compliance and environmental sustainability standards.
 
@@ -13,65 +12,66 @@ The GEONMI-MEMS engine is designed, developed, and maintained strictly as a gree
 
 ---
 
+## 🔒 Confidentiality Notice & Repository Status
+> **IMPORTANT:** The core source code, low-level architecture implementations, and hardware integration scripts of the GEONMI-MEMS engine are **strictly proprietary and closed-source**. They are securely maintained in a separate, private repository to ensure complete confidentiality and absolute intellectual property protection. Only high-level overviews and validation dashboards are showcased publicly.
+
+---
+
+## 🔴 LIVE HIL REAL HARDWARE - Mission Control Dashboard
+
+![GEONMI-MEMS-VLEO-Engine2 HIL Dashboard](./assets/GEONMI-HIL-REAL-HARDWARE.png)
+
+**GEONMI-MEMS-VLEO-Engine2 | SERIAL: /dev/ttyACM0 ● CONNECTED | BAUD: 115200 | MODE: HIL REAL HARDWARE**
+`ALT: 250km | LIVE 100Hz | PID: LOCKED | ZERO-HEAP: PASS`
+
+---
+
 ## Executive Overview
 **GEONMI-MEMS** is an advanced aerospace computing engine engineered to address the critical flight dynamics and control challenges of Very Low Earth Orbit (**VLEO ~250 km**) satellite constellations.
-
 By integrating atmospheric drag compensation, closed-loop micro-propulsion thrust modeling, and resilient state estimation for **GNSS-denied environments**, GEONMI-MEMS provides a comprehensive architecture for constellation station-keeping, precision orbit propagation, and secure satellite-to-satellite link operations.
 
 ---
 
-## Key Core Capabilities
-- **Physics-Coupled Orbit Propagation:** High-speed numerical integration incorporating high-order geopotential terms ($J_2$) alongside non-linear atmospheric drag models.
-- **Resilient GNSS-Denied Navigation:** Advanced estimator framework designed to preserve state convergence during prolonged navigation signal blackouts.
-- **Closed-Loop Micro-Propulsion Integration:** Precision thrust vectoring designed for ALD-passivated Iodine electrospray micro-thruster arrays.
-- **Dynamic Topology Security:** High-dimensional key management structure ensuring resilient cryptographic operations across dynamic orbital links.
+## 🛰️ LIVE Orbit Visualization - VLEO 250km
+
+![SATELLITE SIM DASHBOARD v2.4.1](./assets/GEONMI-LIVE-ORBIT-VISUALIZATION.png)
+
+**SAT-ID: GEONMI-VLEO-01 | INCLINATION: 97.4° | ORBIT: VLEO | TLE REFRESHED**
+> Interactive Demo: Open `GEONMI-MEMS-VLEO-Sim.html` in your browser for real-time 3D simulation.
 
 ---
 
-## Technical Performance Highlights
-- **High-Performance C++17 Core:** Native implementation leveraging matrix vectorization to meet deterministic real-time flight software execution standards.
-- **Multi-Node Fleet Scalability:** Native support for complex, multi-plane, and multi-satellite VLEO constellation architectures.
-- **Uncertainty Propagation Control:** Bounded state variance metrics during communication blackouts and orbital blind spots.
+## 📊 Simulation Outputs & Validation Results
 
-## ⚡ Advanced Structural-Functional Integration [![SWaP-C Optimization](https://img.shields.io/badge/Focus-SWaP--C%20Optimization-orange.svg)]()
-> **Redefining VLEO Architecture through Multi-Functional Structural Design**
+![GEONMI Closed-Loop Results](./assets/GEONMI-SIM-RESULTS.png)
+*Closed-Loop Validation @ VLEO 250km | NRLMSISE-00 Atmospheric Model | GNSS-Denied*
 
-The structural framework of the GEONMI-MEMS architecture transcends traditional mechanical containment, serving as an active subsystem that significantly optimizes mission economics and operational longevity:
-- **Mass Optimization & Launch Cost Reduction:** Advanced structural engineering minimizes overall dry mass, substantially lowering per-kilogram launch expenditures and maximizing payload allocation space.
-- **Absolute Propellant Passivation:** Engineered surface protection prevents chemical degradation and reactivity with advanced iodine propellants, ensuring long-term structural integrity and zero-corrosion operations.
-- **Triboelectric & Piezoelectric Energy Harvesting:** Converts the continuous aerodynamic pressure and friction of the VLEO environment into viable onboard electrical energy, boosting the satellite's cumulative power budget.
-- **Total Cost of Ownership (TCO) Reduction:** Lowers dependency on supplementary power generation hardware while enhancing overall system resilience, delivering a highly cost-effective paradigm for large-scale constellations.
-The structural framework of the GEONMI-MEMS architecture transcends traditional mechanical containment, serving as an active subsystem that significantly optimizes mission economics and operational longevity:
+The integrated HTML simulation validates the core claims under real-time constraints:
 
+| Parameter | Simulated Output | Status |
+| :--- | :--- | :--- |
+| Orbital Altitude | 250 km VLEO | Locked |
+| Atmospheric Drag | 0.23 mN (NRLMSISE-00) | Estimated |
+| Micro-Thrust | 0.23 mN ±0.001 mN | Compensating |
+| Control Loop | 100Hz Deterministic | PID LOCKED |
+| State Estimation | GNSS-Denied Active | Resilient |
+| Memory Model | Zero-Heap Allocation | PASS |
 
-## Intellectual Property & Strict Legal Notice
-
-======================================================================================
-PROPRIETARY INTELLECTUAL PROPERTY & LEGAL NOTICE
-DOCUMENT CLASS: CLOSED-LOOP ENGINE ARCHITECTURE
-COPYRIGHT (C) 2026 MOHAMMAD TALAL KADRI. ALL RIGHTS RESERVED.
-======================================================================================
-
-The GEONMI-MEMS engine, including its mathematical formulations, software code, 
-physics models, and navigation-propulsion control algorithms, constitutes the exclusive 
-Intellectual Property (IP) of MOHAMMAD TALAL KADRI.
-
-TERMS & RESTRICTIONS:
-1. RESTRICTED ACCESS: Unauthorized copying, modification, redistribution, reverse 
-   engineering, decompilation, or commercial utilization of this codebase or its 
-   underlying algorithms is strictly prohibited under international copyright laws 
-   and IP treaties.
-2. NO IMPLIED LICENSE: Hosting or displaying this overview does not convey any license, 
-   right, or permission to use, evaluate, or deploy this technology without explicit, 
-   signed authorization from the Rights Holder.
-3. CONFIDENTIALITY: Core algorithms and technical implementations remain confidential 
-   and proprietary trade secrets.
-======================================================================================
+> Note: This chart represents high-level mission outputs and telemetry results only. Core proprietary algorithms and hardware schematics remain private under Proprietary IP and are shared under NDA only.
 
 ---
 
-## Contact & Inquiries
-For technical reviews, authorization requests, or collaborative research opportunities, please contact:
+## 🛠️ Core Engineering Features
+- **Zero-Heap Memory Allocation:** Fully deterministic execution designed to eliminate memory fragmentation and guarantee predictable real-time performance on microcontrollers.
+- **Cache-Line Optimized Architecture:** Data structures strictly aligned for modern multi-core embedded processors to maximize throughput and minimize latency.
+- **Deterministic Critical Sections:** Custom real-time OS-level safety wrappers ensuring ultra-low overhead interrupt control. Latency <2us (1.4us avg).
+- **Fault-Resilient Telemetry Management:** Integrated circular logging buffers and error-correction protocols designed to maintain data integrity under severe space environment conditions.
 
-**Mohammad Talal Kadri**  
-📧 Email: **kadritalal84@gmail.com**
+---
+
+## 🔒 Intellectual Property & Official Warning Notice
+
+* **Sole Owner & Developer:** **Mohamed Talal Kadri**
+* **Direct Contact:** [kadritalal84@gmail.com](mailto:kadritalal84@gmail.com)
+
+> **Official Warning:** All rights reserved © 2026 Mohamed Talal Kadri. The GEONMI-MEMS engine architecture, source code, algorithms, hardware schematics, and associated documentation are proprietary intellectual property. Unauthorized copying, distribution, modification, reverse engineering, or commercial exploitation of any part of this project—in whole or in part—is strictly prohibited without prior written consent and a formal Non-Disclosure Agreement (NDA) with the owner. Legal action will be pursued against any unauthorized use or infringement.
