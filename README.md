@@ -4,6 +4,8 @@
 [![Domain: VLEO Spacecraft Dynamics](https://img.shields.io/badge/Domain-Aerospace%20%26%20GNC-green.svg)]()
 [![Author: Mohamed Talal Kadri](https://img.shields.io/badge/Author-Mohamed%20Talal%20Kadri-orange.svg)]()
 [![Contact: Email](https://img.shields.io/badge/Contact-kadritalal84%40gmail.com-lightgrey.svg)](mailto:kadritalal84@gmail.com)
+<img width="1920" height="1280" alt="Image" src="https://github.com/user-attachments/assets/557af804-6636-4bec-9bd1-e1bb1538275d" />
+<img width="1920" height="1280" alt="Image" src="https://github.com/user-attachments/assets/2fbabf21-4231-4165-b223-41132eb6b1a1" />
 
 ## 🌐 Civil Compliance & Eco-Friendly Design Notice
 The GEONMI-MEMS engine is designed, developed, and maintained strictly as a green, eco-friendly, and civil-use technology optimized for climate intelligence, ozone tracking, and space debris monitoring. This framework does not incorporate military-grade specifications, nor is it engineered for defense-classified applications. By prioritizing sustainable orbit life management and eco-friendly mission profiles, intellectual property transfers and technology licensing remain fully aligned with global civil space compliance and environmental sustainability standards.
