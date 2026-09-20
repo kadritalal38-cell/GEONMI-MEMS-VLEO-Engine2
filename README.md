@@ -1,3 +1,4 @@
+A low-cost MEMS ion engine for VLEO 250km - Alternative to SpaceX Starlink Hall Thruster
 # GEONMI-MEMS Engine
 [![Project Status: Proprietary Architecture](https://img.shields.io/badge/Status-Proprietary%20IP-red.svg)]()
 [![Core Language: C++17](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)]()
