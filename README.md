@@ -79,6 +79,5 @@ The integrated HTML simulation validates the core claims under real-time constra
 * **Sole Owner & Developer:** **Mohamed Talal Kadri**
 * **Direct Contact:**
 * kadritalal38@gmail.com * [kadritalal84@gmail.com]
-* (mailto:kadritalal84@gmail.com)
 
 > **Official Warning:** All rights reserved © 2026 Mohamed Talal Kadri. The GEONMI-MEMS engine architecture, source code, algorithms, hardware schematics, and associated documentation are proprietary intellectual property. Unauthorized copying, distribution, modification, reverse engineering, or commercial exploitation of any part of this project—in whole or in part—is strictly prohibited without prior written consent and a formal Non-Disclosure Agreement (NDA) with the owner. Legal action will be pursued against any unauthorized use or infringement.
