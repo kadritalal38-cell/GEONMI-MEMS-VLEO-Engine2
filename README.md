@@ -1,4 +1,4 @@
-[PROPRIETARY & COMMERCIAL ARCHITECTURE] A proprietary, closed-source MEMS ion engine developed for VLEO 250km flight dynamics - A commercial alternative to SpaceX Starlink Hall Thruster.
+
 
 # GEONMI-MEMS Engine
 [![Project Status: Proprietary Architecture](https://img.shields.io/badge/Status-Proprietary%20IP-red.svg)]()
