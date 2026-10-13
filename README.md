@@ -36,12 +36,7 @@ By integrating atmospheric drag compensation, closed-loop micro-propulsion thrus
 
 ---
 
-## 🛰️ LIVE Orbit Visualization - VLEO 250km
 
-![SATELLITE SIM DASHBOARD v2.4.1](./assets/GEONMI-LIVE-ORBIT-VISUALIZATION.png)
-
-**SAT-ID: GEONMI-VLEO-01 | INCLINATION: 97.4° | ORBIT: VLEO | TLE REFRESHED**
-> Interactive Demo: Open `GEONMI-MEMS-VLEO-Sim.html` in your browser for real-time 3D simulation.
 
 ---
 
