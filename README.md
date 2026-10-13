@@ -1,4 +1,5 @@
 # GEONMI-MEMS Engine
+
 [![Project Status: Proprietary Architecture](https://img.shields.io/badge/Status-Proprietary%20IP-red.svg)]()
 [![Core Language: C++17](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)]()
 [![Domain: VLEO Spacecraft Dynamics](https://img.shields.io/badge/Domain-Aerospace%20%26%20GNC-green.svg)]()
@@ -9,43 +10,50 @@
 
 ---
 
-## Executive Overview
+## 🖥️ System Dashboards & Media Demonstrations
+
+### 🔴 HIL REAL HARDWARE - Mission Control Dashboard
+
+![GEONMI-MEMS-VLEO-Engine2 HIL Dashboard](./assets/GEONMI-HIL-REAL-HARDWARE.png)
+
+`GEONMI-MEMS-VLEO-Engine2` | `SERIAL: /dev/ttyACM0 ● CONNECTED` | `BAUD: 115200` | `MODE: HIL REAL HARDWARE`  
+> `ALT: 250km` | `100Hz` | `PID: LOCKED` | `ZERO-HEAP: PASS`
+
+---
+
+### 🛰️ Orbit Visualization & Moon Monitoring - VLEO 250km
+
+<div align="center">
+  <img width="48%" alt="Simulation UI 1" src="https://github.com/user-attachments/assets/557af804-6636-4bec-9bd1-e1bb1538275d" />
+  <img width="48%" alt="Simulation UI 2" src="https://github.com/user-attachments/assets/2fbabf21-4231-4165-b223-41132eb6b1a1" />
+</div>
+
+<br>
+
+> 🎥 **Demonstration Video (Moon & Orbit Tracking):**  
+> 🎬 [**Watch Demonstration Video**](https://github.com/user-attachments/assets/d9a2f3f4-e629-4b33-9e55-1d105eff86f6)
+
+![SATELLITE SIM DASHBOARD v2.4.1](./assets/GEONMI-LIVE-ORBIT-VISUALIZATION.png)
+
+`SAT-ID: GEONMI-VLEO-01` | `INCLINATION: 97.4°` | `ORBIT: VLEO` | `TLE REFRESHED`  
+> 💡 **Interactive Demo:** Open `GEONMI-MEMS-VLEO-Sim.html` in your browser for real-time 3D simulation.
+
+---
+
+## 📋 Executive Overview
+
 **GEONMI-MEMS** is an advanced aerospace computing engine engineered to address the critical flight dynamics and control challenges of Very Low Earth Orbit (**VLEO ~250 km**) civil and commercial satellite constellations.  
+
 By integrating atmospheric drag compensation, closed-loop micro-propulsion thrust modeling, and resilient state estimation for **GNSS-denied environments**, GEONMI-MEMS provides a comprehensive architecture for constellation station-keeping, precision orbit propagation, and secure satellite-to-satellite link operations.
 
 ---
 
 ## 🛠️ Core Engineering Features
-- **Zero-Heap Memory Allocation:** Fully deterministic execution designed to eliminate memory fragmentation and guarantee predictable real-time performance on microcontrollers.
-- **Cache-Line Optimized Architecture:** Data structures strictly aligned for modern multi-core embedded processors to maximize throughput and minimize latency.
-- **Deterministic Critical Sections:** Custom real-time OS-level safety wrappers ensuring ultra-low overhead interrupt control. Latency <2us (1.4us avg).
-- **Fault-Resilient Telemetry Management:** Integrated circular logging buffers and error-correction protocols designed to maintain data integrity under severe space environment conditions.
 
----
-
-## 🔴 HIL REAL HARDWARE - Mission Control Dashboard
-
-![GEONMI-MEMS-VLEO-Engine2 HIL Dashboard](./assets/GEONMI-HIL-REAL-HARDWARE.png)
-
-**GEONMI-MEMS-VLEO-Engine2 | SERIAL: /dev/ttyACM0 ● CONNECTED | BAUD: 115200 | MODE: HIL REAL HARDWARE**  
-`ALT: 250km | 100Hz | PID: LOCKED | ZERO-HEAP: PASS`
-
----
-
-## 🛰️ Orbit Visualization & Moon Monitoring - VLEO 250km
-
-<div align="center">
-  <img width="1920" height="1280" alt="Simulation UI 1" src="https://github.com/user-attachments/assets/557af804-6636-4bec-9bd1-e1bb1538275d" />
-  <img width="1920" height="1280" alt="Simulation UI 2" src="https://github.com/user-attachments/assets/2fbabf21-4231-4165-b223-41132eb6b1a1" />
-</div>
-
-> **Demonstration Video (Moon & Orbit Tracking):**  
-> [Watch Demonstration Video](https://github.com/user-attachments/assets/d9a2f3f4-e629-4b33-9e55-1d105eff86f6)
-
-![SATELLITE SIM DASHBOARD v2.4.1](./assets/GEONMI-LIVE-ORBIT-VISUALIZATION.png)
-
-**SAT-ID: GEONMI-VLEO-01 | INCLINATION: 97.4° | ORBIT: VLEO | TLE REFRESHED**  
-> Interactive Demo: Open `GEONMI-MEMS-VLEO-Sim.html` in your browser for real-time 3D simulation.
+* ⚙️ **Zero-Heap Memory Allocation:** Fully deterministic execution designed to eliminate memory fragmentation and guarantee predictable real-time performance on microcontrollers.
+* ⚡ **Cache-Line Optimized Architecture:** Data structures strictly aligned for modern multi-core embedded processors to maximize throughput and minimize latency.
+* ⏱️ **Deterministic Critical Sections:** Custom real-time OS-level safety wrappers ensuring ultra-low overhead interrupt control. Latency `<2us` (`1.4us` avg).
+* 🛡️ **Fault-Resilient Telemetry Management:** Integrated circular logging buffers and error-correction protocols designed to maintain data integrity under severe space environment conditions.
 
 ---
 
@@ -57,29 +65,37 @@ By integrating atmospheric drag compensation, closed-loop micro-propulsion thrus
 The integrated HTML simulation validates the core claims under real-time constraints:
 
 | Parameter | Simulated Output | Status |
-| :--- | :--- | :--- |
-| Orbital Altitude | 250 km VLEO | Locked |
-| Atmospheric Drag | 0.23 mN (NRLMSISE-00) | Estimated |
-| Micro-Thrust | 0.23 mN ±0.001 mN | Compensating |
-| Control Loop | 100Hz Deterministic | PID LOCKED |
-| State Estimation | GNSS-Denied Active | Resilient |
-| Memory Model | Zero-Heap Allocation | PASS |
+| :--- | :--- | :---: |
+| **Orbital Altitude** | `250 km VLEO` | `Locked` |
+| **Atmospheric Drag** | `0.23 mN (NRLMSISE-00)` | `Estimated` |
+| **Micro-Thrust** | `0.23 mN ±0.001 mN` | `Compensating` |
+| **Control Loop** | `100Hz Deterministic` | `PID LOCKED` |
+| **State Estimation** | `GNSS-Denied Active` | `Resilient` |
+| **Memory Model** | `Zero-Heap Allocation` | `PASS` |
 
-> Note: This chart represents high-level mission outputs and telemetry results only. Core proprietary algorithms and hardware schematics remain private under Proprietary IP and are shared under NDA only.
+> 📌 **Note:** This chart represents high-level mission outputs and telemetry results only. Core proprietary algorithms and hardware schematics remain private under Proprietary IP and are shared under NDA only.
 
 ---
 
 ## 🔒 Intellectual Property, Civil/Commercial Statement & Official Warning Notice
 
-- **Sole Owner & Developer:** **Mohamed Talal Kadri**
-- **Direct Contact:**
-  - talal.works38@gmail.com
-  - kadritalal84@gmail.com
+### 👤 Developer & Contact Info
+* **Sole Owner & Developer:** Mohamed Talal Kadri
+* **Direct Contact:** 
+  * 📧 `talal.works38@gmail.com`
+  * 📧 `kadritalal84@gmail.com`
 
-- **Confidentiality & Repository Status:**
-  The core source code, low-level architecture implementations, and hardware integration scripts of the GEONMI-MEMS engine are **strictly proprietary and closed-source**. They are securely maintained in a separate, private repository to ensure complete confidentiality and absolute intellectual property protection. Only high-level overviews and validation dashboards are showcased publicly.
+---
 
-- **Civil, Commercial & Eco-Friendly Design Notice:**
-  The GEONMI-MEMS engine is designed, developed, and maintained strictly as a **civil, commercial, green, and eco-friendly technology**. It is optimized for climate intelligence, ozone tracking, space debris monitoring, and commercial satellite constellation maintenance. **This framework has NO military classification, application, or defense-grade specifications, nor is it engineered for military or defense use.** By prioritizing sustainable orbit life management and eco-friendly mission profiles, intellectual property transfers and technology licensing remain fully aligned with global civil space compliance, commercial space operations, and environmental sustainability standards.
+### 📂 Confidentiality & Repository Status
+The core source code, low-level architecture implementations, and hardware integration scripts of the GEONMI-MEMS engine are **strictly proprietary and closed-source**. They are securely maintained in a separate, private repository to ensure complete confidentiality and absolute intellectual property protection. Only high-level overviews and validation dashboards are showcased publicly.
 
-> **Official Warning:** All rights reserved © 2026 Mohamed Talal Kadri. The GEONMI-MEMS engine architecture, source code, algorithms, hardware schematics, and associated documentation are proprietary intellectual property. Unauthorized copying, distribution, modification, reverse engineering, or commercial exploitation of any part of this project—in whole or in part—is strictly prohibited without prior written consent and a formal Non-Disclosure Agreement (NDA) with the owner. Legal action will be pursued against any unauthorized use or infringement.
+---
+
+### 🌍 Civil, Commercial & Eco-Friendly Design Notice
+The GEONMI-MEMS engine is designed, developed, and maintained strictly as a **civil, commercial, green, and eco-friendly technology**. It is optimized for climate intelligence, ozone tracking, space debris monitoring, and commercial satellite constellation maintenance. **This framework has NO military classification, application, or defense-grade specifications, nor is it engineered for military or defense use.** By prioritizing sustainable orbit life management and eco-friendly mission profiles, intellectual property transfers and technology licensing remain fully aligned with global civil space compliance, commercial space operations, and environmental sustainability standards.
+
+---
+
+> ⚠️ **Official Warning:**  
+> All rights reserved © 2026 Mohamed Talal Kadri. The GEONMI-MEMS engine architecture, source code, algorithms, hardware schematics, and associated documentation are proprietary intellectual property. Unauthorized copying, distribution, modification, reverse engineering, or commercial exploitation of any part of this project—in whole or in part—is strictly prohibited without prior written consent and a formal Non-Disclosure Agreement (NDA) with the owner. Legal action will be pursued against any unauthorized use or infringement.
